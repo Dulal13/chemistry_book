@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SSCChemistryBook/app/src/main/res/drawable/border.xml" value="0.1995" />
         <entry key="..\:/SSCChemistryBook/app/src/main/res/layout/activity_chapter_list.xml" value="0.22826086956521738" />
         <entry key="..\:/SSCChemistryBook/app/src/main/res/layout/activity_main.xml" value="0.22239583333333332" />
+        <entry key="..\:/SSCChemistryBook/app/src/main/res/layout/activity_pdf_view.xml" value="0.22826086956521738" />
+        <entry key="..\:/SSCChemistryBook/app/src/main/res/layout/activity_welcome.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>

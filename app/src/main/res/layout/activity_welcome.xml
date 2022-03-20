@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Welcome"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/welcome"
+        android:visibility="gone"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="42dp"
+                android:text="Chemistry "
+                android:gravity="center"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#319A36"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Learn Chemistry and"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:textColor="#736C6C"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recite Once Everyday"
+                android:gravity="center"
+                android:textColor="#736C6C"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="15dp"
+
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/chemistry"
+                android:scaleType="centerCrop"
+                android:padding="20dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <Button
+                android:id="@+id/nextPage"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="get start"
+                android:layout_margin="100dp"
+                android:backgroundTint="#18BD1F"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/noInternet"
+        android:visibility="visible"
+        >
+
+    <TextView
+        android:id="@+id/noInternetTxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="No Internet"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#045C08"
+        android:background="@drawable/border"
+        android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/noInternetTxt"
+        android:layout_centerHorizontal="true"
+        android:text="Turn on Mobile Internet or WIFI"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+    <ImageView
+
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/quran_main"
+        android:scaleType="centerCrop"
+        android:padding="70dp"
+        />
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/noInternetTxt"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="#18BD1F"
+            android:text="Try Again" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

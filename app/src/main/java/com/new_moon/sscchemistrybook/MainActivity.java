@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
        handler.postDelayed(new Runnable() {
            @Override
            public void run() {
-               Intent chapter = new Intent(MainActivity.this , ChapterList.class);
+               Intent chapter = new Intent(MainActivity.this , Welcome.class);
                startActivity(chapter);
                finish();
            }

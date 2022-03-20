@@ -1,9 +1,350 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ChapterList">
+    tools:context=".ChapterList"
+   >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="ASSALAMUA LAIKUM WA-RAHMATULLAHI WABARAKATUH"
+            android:padding="30dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            />
+
+        //chapter0ne
+        <LinearLayout
+            android:id="@+id/chapterOne"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-1  Concept of Chemistry"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterTwo
+        <LinearLayout
+            android:id="@+id/chapterTwo"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-2  States of Matter"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+        //chapterThree
+        <LinearLayout
+            android:id="@+id/chapterThree"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-3  Structure of Matter"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterFour
+        <LinearLayout
+            android:id="@+id/chapterFour"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-4  Periodic Table"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterFive
+        <LinearLayout
+            android:id="@+id/chapterFive"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-5 Chemical Bonds"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterSix
+        <LinearLayout
+            android:id="@+id/chapterSix"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-6  Concept of Mole and Chemical Calculations"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterSeven
+        <LinearLayout
+            android:id="@+id/chapterSeven"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-7  Chemical Reaction"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterEight
+        <LinearLayout
+            android:id="@+id/chapterEight"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-8  Chemistry and Energy"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterNine
+        <LinearLayout
+            android:id="@+id/chapterNine"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-9  Acid-Base Balance"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterTen
+        <LinearLayout
+            android:id="@+id/chapterTen"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-10  	Mineral Resources: Metal-Nonmetal"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterEleven
+        <LinearLayout
+            android:id="@+id/chapterEleven"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-11  Mineral Resources-Fossil"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        //chapterTweleve
+        <LinearLayout
+            android:id="@+id/chapterTweleve"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/book"
+                android:scaleType="centerCrop"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Chapter-12 Chemistry in our Life"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
