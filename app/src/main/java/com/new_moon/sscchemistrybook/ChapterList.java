@@ -15,6 +15,8 @@ import android.provider.Settings;
 import android.view.View;
 import android.widget.LinearLayout;
 
+
+
 public class ChapterList extends AppCompatActivity {
 
     LinearLayout chapterOne , chapterTwo , chapterThree , chapterFour , chapterFive , chapterSix , chapterSeven , chapterEight , chapterNine , chapterTen , chapterEleven , chapterTweleve;
@@ -24,6 +26,7 @@ public class ChapterList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chapter_list);
         getSupportActionBar().hide();
+
 
         chapterOne = findViewById(R.id.chapterOne);
         chapterTwo = findViewById(R.id.chapterTwo);
@@ -38,6 +41,15 @@ public class ChapterList extends AppCompatActivity {
         chapterEleven = findViewById(R.id.chapterEleven);
         chapterTweleve = findViewById(R.id.chapterTweleve);
 
+//        MobileAds.initialize(this, new OnInitializationCompleteListener() {
+//            @Override
+//            public void onInitializationComplete(InitializationStatus initializationStatus) {
+//            }
+//        });
+
+//        mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
       
       
             chapterOne.setOnClickListener(new View.OnClickListener() {
